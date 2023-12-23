@@ -111,6 +111,9 @@
 // const arr2 = ["Murad", "Anar", "Rufet", 'Anar', 'Gulshen', 'Nermin', "Ilkin", "Fuad", "Anar"]
 // 1.Console values from "Rufet" to "Fuad"
 // 2.Change Gulshen to Rovshen
+// const index = arr2.indexOf('Gulshen')
+// arr2[index] = 'Rovshen'
+// console.log(arr2);
 // 3.Console each name with map
 // arr2.map((item) => console.log(item))
 // 4.Console only names which is Anar
@@ -120,6 +123,8 @@
 // const result = arr2.map(item => (item === "Anar" ? "Perviz" : item));
 // console.log(result);
 // 6.Console second to last value of arr2
+// const result = arr2.filter((item, index) => index >= 1)
+// console.log(result);
 // 7.Console length of arr2
 // console.log(arr2.length);
 
