@@ -169,6 +169,10 @@
 // console.log(result3);
 
 // 2.Sum all numbers of arr4
+// const result = arr4.filter(number => typeof number === 'number')
+// let sum = 0
+// result.map(number => sum += number)
+// console.log(sum);
 // 3.Count only the values that are true
 // const result = arr4.filter(item => item === true)
 // console.log(result.length);
